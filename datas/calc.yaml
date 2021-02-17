@@ -1,0 +1,28 @@
+add:
+  datas:
+    - [1,1,2]
+    - [100,100,200]
+    - [0.1,0.2,0.3]
+    - [0.1, -0.2, 0.3]
+    - [-1,-1,-2]
+  myid:
+    - 'add_int'
+    - 'add_bigint'
+    - 'add_float'
+    - 'add_failed'
+    - 'add_minus'
+div:
+  datas:
+    - [1,1,1]
+    - [0,1,0]
+    - [200,100,2]
+    - [0.2,0.1,2]
+    - [2,0,0]
+    - [-1,-1,1]
+  myid:
+    - 'div_int'
+    - 'div_int0'
+    - 'div_bigint'
+    - 'div_float'
+    - 'div_failed'
+    - 'div_minus'
